@@ -73,8 +73,8 @@
 			</Item>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{02DB2C57-380E-4D87-B94F-9E4DCD885EC5}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{0529D962-3C4C-4527-9061-E75AF0ADCB9A}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{055EA98E-EBF0-4E21-89EF-96E89B7F9A1B}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{0DD17B0E-0602-43E2-BCFE-FEF36505645A}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI1;0;ReadMethodType=bool{0EBC8FA8-8E7D-4797-BA85-EC6004084AC1}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI7;0;ReadMethodType=bool{10F0D307-2E21-4BDE-A869-5145A191C599}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI6;0;ReadMethodType=bool{11FDF070-B5D8-4494-A70A-2B67B81EAB3C}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{1F6B7681-2F0A-4205-B5F2-1E2E9DFB9B2A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=bool{27CFFA4E-C365-44B8-B96A-F2CBF069A19A}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{30CF1F0B-3C53-4D95-B255-9CFD92F1F9A4}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{3415AE17-2695-4EB1-A660-75D96A401E66}resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{383BE3DA-8C88-4FAE-87C5-B7B9A8B0F6CD}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{49478582-9E5A-444A-A4C2-9C36861FCFF2}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI2;0;ReadMethodType=bool{4B3C17D6-EA5E-497E-8D61-F0155A1D98A1}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI4;0;ReadMethodType=bool{51F84204-9942-47B0-A40B-0EAC91E4583D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{56EBCCB5-44A4-4C41-A7A2-13DE5D669BD2}resource=/Chassis Temperature;0;ReadMethodType=i16{60190CED-0A2B-47A1-94BC-C40DC0F89F9F}resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6340FE1E-0AB9-4608-90CD-246F29734F5E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI5;0;ReadMethodType=bool{6AA69C37-CAAE-48BC-AD58-DFF34DC41943}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI0;0;ReadMethodType=bool{74516313-E474-41D0-BC29-913599EC4B2E}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{85A241C2-EE88-40DF-B181-B20784E2699C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=bool{8607FE5B-3C14-48CF-BB32-D35E8A48FD52}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{8976D08F-DF24-47CA-8435-60D5DA19B94A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=bool{8B521DCC-4B3A-485E-BEA9-8B7211B6848B}resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{9169805E-D760-4927-905F-7382398F47B3}resource=/Scan Clock;0;ReadMethodType=bool{9A555943-50F5-4B49-A078-9559DFACB49D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{9C670B18-BBD5-4161-91E2-52D88025B2B7}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9201,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=2,000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{A173B87B-B3B3-4CB0-AF83-F70FABECCF50}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{BD2228A9-4A21-4802-8B31-42BE70B14664}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{C1F337EE-9FA6-48FC-8142-5ABF9DBD0DEF}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{D8D5306F-4426-4DC6-B790-21D25AD0D594}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=bool{DE809F5D-BC5F-45F3-8421-29DCBA65727F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=bool{DEB26A01-E76B-4E4D-BA44-4010B94356A8}resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E3799897-FEC1-4840-B77D-E6FFE743F5E7}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{EB33C518-2C07-47D5-8B12-D84E0B341D3E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI3;0;ReadMethodType=bool{ED71E025-FA15-4774-A6AF-DC7E720D0D7A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=bool{ED828638-4FCA-41EC-A15C-ABFB5DAE32FB}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9421,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{F74CA1B1-BECB-40C4-B723-4B7704E6820E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI7:0;0;ReadMethodType=u8{F9251B8C-147D-497A-9CF0-A7E375D78E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC42CC61-2846-4E52-8A36-EC9BEBCCA964}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9118/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9118FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9118/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9118FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGAFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1/AI0resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI1resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI2resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI3resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI4resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI5resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI6resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI7resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9201,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=2,000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/DI0NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI0;0;ReadMethodType=boolMod2/DI1NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI1;0;ReadMethodType=boolMod2/DI2NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI2;0;ReadMethodType=boolMod2/DI3NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI3;0;ReadMethodType=boolMod2/DI4NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI4;0;ReadMethodType=boolMod2/DI5NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI5;0;ReadMethodType=boolMod2/DI6NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI6;0;ReadMethodType=boolMod2/DI7:0NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI7:0;0;ReadMethodType=u8Mod2/DI7NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod2/DI7;0;ReadMethodType=boolMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9421,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod3/DO0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO0;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO1;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO2;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO3;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO4;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO6;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DO7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod3/DO7;0;ReadMethodType=bool;WriteMethodType=boolMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/AO0resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO1resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO2resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO3resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+				<Property Name="configString.guid" Type="Str">{02DB2C57-380E-4D87-B94F-9E4DCD885EC5}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{0529D962-3C4C-4527-9061-E75AF0ADCB9A}resource=/crio_Entradas Analógicas/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{055EA98E-EBF0-4E21-89EF-96E89B7F9A1B}resource=/crio_Entradas Analógicas/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{0DD17B0E-0602-43E2-BCFE-FEF36505645A}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI1;0;ReadMethodType=bool{0EBC8FA8-8E7D-4797-BA85-EC6004084AC1}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI7;0;ReadMethodType=bool{10F0D307-2E21-4BDE-A869-5145A191C599}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI6;0;ReadMethodType=bool{11FDF070-B5D8-4494-A70A-2B67B81EAB3C}resource=/crio_Entradas Analógicas/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{1F6B7681-2F0A-4205-B5F2-1E2E9DFB9B2A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO4;0;ReadMethodType=bool;WriteMethodType=bool{27CFFA4E-C365-44B8-B96A-F2CBF069A19A}resource=/crio_Entradas Analógicas/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{30CF1F0B-3C53-4D95-B255-9CFD92F1F9A4}resource=/crio_Entradas Analógicas/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{3415AE17-2695-4EB1-A660-75D96A401E66}resource=/crio_Saídas Analógicas/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{383BE3DA-8C88-4FAE-87C5-B7B9A8B0F6CD}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{49478582-9E5A-444A-A4C2-9C36861FCFF2}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI2;0;ReadMethodType=bool{4B3C17D6-EA5E-497E-8D61-F0155A1D98A1}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI4;0;ReadMethodType=bool{51F84204-9942-47B0-A40B-0EAC91E4583D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{56EBCCB5-44A4-4C41-A7A2-13DE5D669BD2}resource=/Chassis Temperature;0;ReadMethodType=i16{60190CED-0A2B-47A1-94BC-C40DC0F89F9F}resource=/crio_Saídas Analógicas/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6340FE1E-0AB9-4608-90CD-246F29734F5E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI5;0;ReadMethodType=bool{6AA69C37-CAAE-48BC-AD58-DFF34DC41943}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI0;0;ReadMethodType=bool{74516313-E474-41D0-BC29-913599EC4B2E}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{85A241C2-EE88-40DF-B181-B20784E2699C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO3;0;ReadMethodType=bool;WriteMethodType=bool{8607FE5B-3C14-48CF-BB32-D35E8A48FD52}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{8976D08F-DF24-47CA-8435-60D5DA19B94A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO0;0;ReadMethodType=bool;WriteMethodType=bool{8B521DCC-4B3A-485E-BEA9-8B7211B6848B}resource=/crio_Saídas Analógicas/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{9169805E-D760-4927-905F-7382398F47B3}resource=/Scan Clock;0;ReadMethodType=bool{9A555943-50F5-4B49-A078-9559DFACB49D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{9C670B18-BBD5-4161-91E2-52D88025B2B7}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9201,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=2,000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{A173B87B-B3B3-4CB0-AF83-F70FABECCF50}resource=/crio_Entradas Analógicas/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{BD2228A9-4A21-4802-8B31-42BE70B14664}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{C1F337EE-9FA6-48FC-8142-5ABF9DBD0DEF}resource=/crio_Entradas Analógicas/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{D8D5306F-4426-4DC6-B790-21D25AD0D594}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO5;0;ReadMethodType=bool;WriteMethodType=bool{DE809F5D-BC5F-45F3-8421-29DCBA65727F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO2;0;ReadMethodType=bool;WriteMethodType=bool{DEB26A01-E76B-4E4D-BA44-4010B94356A8}resource=/crio_Saídas Analógicas/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E3799897-FEC1-4840-B77D-E6FFE743F5E7}resource=/crio_Entradas Analógicas/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{EB33C518-2C07-47D5-8B12-D84E0B341D3E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI3;0;ReadMethodType=bool{ED71E025-FA15-4774-A6AF-DC7E720D0D7A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO1;0;ReadMethodType=bool;WriteMethodType=bool{ED828638-4FCA-41EC-A15C-ABFB5DAE32FB}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9421,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{F74CA1B1-BECB-40C4-B723-4B7704E6820E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI7:0;0;ReadMethodType=u8{F9251B8C-147D-497A-9CF0-A7E375D78E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC42CC61-2846-4E52-8A36-EC9BEBCCA964}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO6;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9118/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9118FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9118/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9118FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGAEntradas Analógicas[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9201,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=2,000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Entradas Digitais[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9421,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1/AI4resource=/crio_Entradas Analógicas/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI5resource=/crio_Entradas Analógicas/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI6resource=/crio_Entradas Analógicas/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI7resource=/crio_Entradas Analógicas/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod2/DI0NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI0;0;ReadMethodType=boolMod2/DI1NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI1;0;ReadMethodType=boolMod2/DI2NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI2;0;ReadMethodType=boolMod2/DI3NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI3;0;ReadMethodType=boolMod2/DI4NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI4;0;ReadMethodType=boolMod2/DI5NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI5;0;ReadMethodType=boolMod2/DI6NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI6;0;ReadMethodType=boolMod2/DI7:0NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI7:0;0;ReadMethodType=u8Mod2/DI7NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI7;0;ReadMethodType=boolMod3/DO0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO0;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO1;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO2;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO3;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO4;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO6;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DO7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO7;0;ReadMethodType=bool;WriteMethodType=boolMod4/AO0resource=/crio_Saídas Analógicas/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO1resource=/crio_Saídas Analógicas/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO2resource=/crio_Saídas Analógicas/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO3resource=/crio_Saídas Analógicas/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlNível Tanque 1resource=/crio_Entradas Analógicas/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlNível Tanque 2resource=/crio_Entradas Analógicas/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlNível Tanque 3resource=/crio_Entradas Analógicas/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlNível Tanque 4resource=/crio_Entradas Analógicas/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlSaídas Analógicas[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Saídas Digitais[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9118/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9118FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
@@ -128,38 +128,38 @@
 						<Property Name="FPGA.PersistentID" Type="Str">{9169805E-D760-4927-905F-7382398F47B3}</Property>
 					</Item>
 				</Item>
-				<Item Name="Mod1" Type="Folder">
-					<Item Name="Mod1/AI0" Type="Elemental IO">
+				<Item Name="Entradas Analógicas" Type="Folder">
+					<Item Name="Nível Tanque 1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI0</Value>
+   <Value>/crio_Entradas Analógicas/AI0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{30CF1F0B-3C53-4D95-B255-9CFD92F1F9A4}</Property>
 					</Item>
-					<Item Name="Mod1/AI1" Type="Elemental IO">
+					<Item Name="Nível Tanque 2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI1</Value>
+   <Value>/crio_Entradas Analógicas/AI1</Value>
    </Attribute>
 </AttributeSet>
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{E3799897-FEC1-4840-B77D-E6FFE743F5E7}</Property>
 					</Item>
-					<Item Name="Mod1/AI2" Type="Elemental IO">
+					<Item Name="Nível Tanque 3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI2</Value>
+   <Value>/crio_Entradas Analógicas/AI2</Value>
    </Attribute>
 </AttributeSet>
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{A173B87B-B3B3-4CB0-AF83-F70FABECCF50}</Property>
 					</Item>
-					<Item Name="Mod1/AI3" Type="Elemental IO">
+					<Item Name="Nível Tanque 4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI3</Value>
+   <Value>/crio_Entradas Analógicas/AI3</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -168,7 +168,7 @@
 					<Item Name="Mod1/AI4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI4</Value>
+   <Value>/crio_Entradas Analógicas/AI4</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -177,7 +177,7 @@
 					<Item Name="Mod1/AI5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI5</Value>
+   <Value>/crio_Entradas Analógicas/AI5</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -186,7 +186,7 @@
 					<Item Name="Mod1/AI6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI6</Value>
+   <Value>/crio_Entradas Analógicas/AI6</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -195,21 +195,21 @@
 					<Item Name="Mod1/AI7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI7</Value>
+   <Value>/crio_Entradas Analógicas/AI7</Value>
    </Attribute>
 </AttributeSet>
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{C1F337EE-9FA6-48FC-8142-5ABF9DBD0DEF}</Property>
 					</Item>
 				</Item>
-				<Item Name="Mod2" Type="Folder">
+				<Item Name="Entradas Digitais" Type="Folder">
 					<Item Name="Mod2/DI0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="NumberOfSyncRegistersForReadInProject">
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI0</Value>
+   <Value>/crio_Entradas Digitais/DI0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -221,7 +221,7 @@
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI1</Value>
+   <Value>/crio_Entradas Digitais/DI1</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -233,7 +233,7 @@
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI2</Value>
+   <Value>/crio_Entradas Digitais/DI2</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -245,7 +245,7 @@
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI3</Value>
+   <Value>/crio_Entradas Digitais/DI3</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -257,7 +257,7 @@
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI4</Value>
+   <Value>/crio_Entradas Digitais/DI4</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -269,7 +269,7 @@
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI5</Value>
+   <Value>/crio_Entradas Digitais/DI5</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -281,7 +281,7 @@
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI6</Value>
+   <Value>/crio_Entradas Digitais/DI6</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -293,7 +293,7 @@
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI7</Value>
+   <Value>/crio_Entradas Digitais/DI7</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -305,21 +305,21 @@
    <Value>Auto</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod2/DI7:0</Value>
+   <Value>/crio_Entradas Digitais/DI7:0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{F74CA1B1-BECB-40C4-B723-4B7704E6820E}</Property>
 					</Item>
 				</Item>
-				<Item Name="Mod3" Type="Folder">
+				<Item Name="Saídas Digitais" Type="Folder">
 					<Item Name="Mod3/DO0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO0</Value>
+   <Value>/crio_Saídas Digitais/DO0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -331,7 +331,7 @@
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO1</Value>
+   <Value>/crio_Saídas Digitais/DO1</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -343,7 +343,7 @@
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO2</Value>
+   <Value>/crio_Saídas Digitais/DO2</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -355,7 +355,7 @@
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO3</Value>
+   <Value>/crio_Saídas Digitais/DO3</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -367,7 +367,7 @@
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO4</Value>
+   <Value>/crio_Saídas Digitais/DO4</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -379,7 +379,7 @@
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO5</Value>
+   <Value>/crio_Saídas Digitais/DO5</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -391,7 +391,7 @@
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO6</Value>
+   <Value>/crio_Saídas Digitais/DO6</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -403,7 +403,7 @@
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO7</Value>
+   <Value>/crio_Saídas Digitais/DO7</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -415,18 +415,18 @@
    <Value>NeverArbitrate</Value>
    </Attribute>
    <Attribute name="resource">
-   <Value>/crio_Mod3/DO7:0</Value>
+   <Value>/crio_Saídas Digitais/DO7:0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{9A555943-50F5-4B49-A078-9559DFACB49D}</Property>
 					</Item>
 				</Item>
-				<Item Name="Mod4" Type="Folder">
+				<Item Name="Saídas Analógicas" Type="Folder">
 					<Item Name="Mod4/AO0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/AO0</Value>
+   <Value>/crio_Saídas Analógicas/AO0</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -435,7 +435,7 @@
 					<Item Name="Mod4/AO1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/AO1</Value>
+   <Value>/crio_Saídas Analógicas/AO1</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -444,7 +444,7 @@
 					<Item Name="Mod4/AO2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/AO2</Value>
+   <Value>/crio_Saídas Analógicas/AO2</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -453,7 +453,7 @@
 					<Item Name="Mod4/AO3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod4/AO3</Value>
+   <Value>/crio_Saídas Analógicas/AO3</Value>
    </Attribute>
 </AttributeSet>
 </Property>
@@ -482,7 +482,7 @@
 					<Item Name="Dependencies" Type="Dependencies"/>
 					<Item Name="Build Specifications" Type="Build"/>
 				</Item>
-				<Item Name="Mod1" Type="RIO C Series Module">
+				<Item Name="Entradas Analógicas" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 1</Property>
 					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
@@ -496,7 +496,7 @@
 					<Property Name="cRIOModule.MinConvTime" Type="Str">2,000000E+0</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{9C670B18-BBD5-4161-91E2-52D88025B2B7}</Property>
 				</Item>
-				<Item Name="Mod2" Type="RIO C Series Module">
+				<Item Name="Entradas Digitais" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 2</Property>
 					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
@@ -700,7 +700,7 @@
 					<Property Name="cRIOModule.NumSyncRegs" Type="Str">11111111</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{ED828638-4FCA-41EC-A15C-ABFB5DAE32FB}</Property>
 				</Item>
-				<Item Name="Mod3" Type="RIO C Series Module">
+				<Item Name="Saídas Digitais" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 3</Property>
 					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
@@ -724,7 +724,7 @@
 					<Property Name="cRIOModule.NumSyncRegs" Type="Str">11111111</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{8607FE5B-3C14-48CF-BB32-D35E8A48FD52}</Property>
 				</Item>
-				<Item Name="Mod4" Type="RIO C Series Module">
+				<Item Name="Saídas Analógicas" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 4</Property>
 					<Property Name="crio.RequiresValidation" Type="Bool">false</Property>
@@ -737,6 +737,10 @@
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="cRIOModule.HotSwapMode" Type="Str">0</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{BD2228A9-4A21-4802-8B31-42BE70B14664}</Property>
+				</Item>
+				<Item Name="FPGA main.vi" Type="VI" URL="../FPGA/FPGA main.vi">
+					<Property Name="configString.guid" Type="Str">{02DB2C57-380E-4D87-B94F-9E4DCD885EC5}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{0529D962-3C4C-4527-9061-E75AF0ADCB9A}resource=/crio_Entradas Analógicas/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{055EA98E-EBF0-4E21-89EF-96E89B7F9A1B}resource=/crio_Entradas Analógicas/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{0DD17B0E-0602-43E2-BCFE-FEF36505645A}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI1;0;ReadMethodType=bool{0EBC8FA8-8E7D-4797-BA85-EC6004084AC1}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI7;0;ReadMethodType=bool{10F0D307-2E21-4BDE-A869-5145A191C599}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI6;0;ReadMethodType=bool{11FDF070-B5D8-4494-A70A-2B67B81EAB3C}resource=/crio_Entradas Analógicas/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{1F6B7681-2F0A-4205-B5F2-1E2E9DFB9B2A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO4;0;ReadMethodType=bool;WriteMethodType=bool{27CFFA4E-C365-44B8-B96A-F2CBF069A19A}resource=/crio_Entradas Analógicas/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{30CF1F0B-3C53-4D95-B255-9CFD92F1F9A4}resource=/crio_Entradas Analógicas/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{3415AE17-2695-4EB1-A660-75D96A401E66}resource=/crio_Saídas Analógicas/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{383BE3DA-8C88-4FAE-87C5-B7B9A8B0F6CD}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{49478582-9E5A-444A-A4C2-9C36861FCFF2}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI2;0;ReadMethodType=bool{4B3C17D6-EA5E-497E-8D61-F0155A1D98A1}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI4;0;ReadMethodType=bool{51F84204-9942-47B0-A40B-0EAC91E4583D}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{56EBCCB5-44A4-4C41-A7A2-13DE5D669BD2}resource=/Chassis Temperature;0;ReadMethodType=i16{60190CED-0A2B-47A1-94BC-C40DC0F89F9F}resource=/crio_Saídas Analógicas/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6340FE1E-0AB9-4608-90CD-246F29734F5E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI5;0;ReadMethodType=bool{6AA69C37-CAAE-48BC-AD58-DFF34DC41943}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI0;0;ReadMethodType=bool{74516313-E474-41D0-BC29-913599EC4B2E}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{85A241C2-EE88-40DF-B181-B20784E2699C}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO3;0;ReadMethodType=bool;WriteMethodType=bool{8607FE5B-3C14-48CF-BB32-D35E8A48FD52}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{8976D08F-DF24-47CA-8435-60D5DA19B94A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO0;0;ReadMethodType=bool;WriteMethodType=bool{8B521DCC-4B3A-485E-BEA9-8B7211B6848B}resource=/crio_Saídas Analógicas/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{9169805E-D760-4927-905F-7382398F47B3}resource=/Scan Clock;0;ReadMethodType=bool{9A555943-50F5-4B49-A078-9559DFACB49D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8{9C670B18-BBD5-4161-91E2-52D88025B2B7}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9201,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=2,000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{A173B87B-B3B3-4CB0-AF83-F70FABECCF50}resource=/crio_Entradas Analógicas/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{BD2228A9-4A21-4802-8B31-42BE70B14664}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{C1F337EE-9FA6-48FC-8142-5ABF9DBD0DEF}resource=/crio_Entradas Analógicas/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{D8D5306F-4426-4DC6-B790-21D25AD0D594}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO5;0;ReadMethodType=bool;WriteMethodType=bool{DE809F5D-BC5F-45F3-8421-29DCBA65727F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO2;0;ReadMethodType=bool;WriteMethodType=bool{DEB26A01-E76B-4E4D-BA44-4010B94356A8}resource=/crio_Saídas Analógicas/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E3799897-FEC1-4840-B77D-E6FFE743F5E7}resource=/crio_Entradas Analógicas/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctl{EB33C518-2C07-47D5-8B12-D84E0B341D3E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI3;0;ReadMethodType=bool{ED71E025-FA15-4774-A6AF-DC7E720D0D7A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO1;0;ReadMethodType=bool;WriteMethodType=bool{ED828638-4FCA-41EC-A15C-ABFB5DAE32FB}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9421,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{F74CA1B1-BECB-40C4-B723-4B7704E6820E}NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI7:0;0;ReadMethodType=u8{F9251B8C-147D-497A-9CF0-A7E375D78E51}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO7;0;ReadMethodType=bool;WriteMethodType=bool{FC42CC61-2846-4E52-8A36-EC9BEBCCA964}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO6;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9118/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9118FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9118/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9118FPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGAEntradas Analógicas[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9201,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=2,000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Entradas Digitais[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9421,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1/AI4resource=/crio_Entradas Analógicas/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI5resource=/crio_Entradas Analógicas/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI6resource=/crio_Entradas Analógicas/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod1/AI7resource=/crio_Entradas Analógicas/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlMod2/DI0NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI0;0;ReadMethodType=boolMod2/DI1NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI1;0;ReadMethodType=boolMod2/DI2NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI2;0;ReadMethodType=boolMod2/DI3NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI3;0;ReadMethodType=boolMod2/DI4NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI4;0;ReadMethodType=boolMod2/DI5NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI5;0;ReadMethodType=boolMod2/DI6NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI6;0;ReadMethodType=boolMod2/DI7:0NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI7:0;0;ReadMethodType=u8Mod2/DI7NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Entradas Digitais/DI7;0;ReadMethodType=boolMod3/DO0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO0;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO1;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO2;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO3;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO4;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO6;0;ReadMethodType=bool;WriteMethodType=boolMod3/DO7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DO7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Saídas Digitais/DO7;0;ReadMethodType=bool;WriteMethodType=boolMod4/AO0resource=/crio_Saídas Analógicas/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO1resource=/crio_Saídas Analógicas/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO2resource=/crio_Saídas Analógicas/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO3resource=/crio_Saídas Analógicas/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlNível Tanque 1resource=/crio_Entradas Analógicas/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlNível Tanque 2resource=/crio_Entradas Analógicas/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlNível Tanque 3resource=/crio_Entradas Analógicas/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlNível Tanque 4resource=/crio_Entradas Analógicas/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_16_5.ctlSaídas Analógicas[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Saídas Digitais[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9472,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
