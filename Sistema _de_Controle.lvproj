@@ -10,7 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Host main.vi" Type="VI" URL="../Host/Host main.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="Tanque.ctl" Type="VI" URL="../../../Identificacao_da_Planta/identifica-o-da-planta/Tanques quádruplos - Identificação/Tanque.ctl"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
