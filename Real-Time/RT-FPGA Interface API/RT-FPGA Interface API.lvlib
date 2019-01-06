@@ -8,4 +8,5 @@
 	<Item Name="Read Tank Levels.vi" Type="VI" URL="../Read Tank Levels.vi"/>
 	<Item Name="Stop and Close FPGA.vi" Type="VI" URL="../Stop and Close FPGA.vi"/>
 	<Item Name="Write Pumps Voltages.vi" Type="VI" URL="../Write Pumps Voltages.vi"/>
+	<Item Name="Write Valves Ratio.vi" Type="VI" URL="../Write Valves Ratio.vi"/>
 </Library>
