@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="FPGA ref.ctl" Type="VI" URL="../FPGA ref.ctl"/>
 	<Item Name="Open and Configure FPGA.vi" Type="VI" URL="../Open and Configure FPGA.vi"/>
 	<Item Name="Read Tank Levels.vi" Type="VI" URL="../Read Tank Levels.vi"/>
 	<Item Name="Stop and Close FPGA.vi" Type="VI" URL="../Stop and Close FPGA.vi"/>
