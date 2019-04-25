@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
+			<Item Name="Tanque.ctl" Type="VI" URL="../Host/controls/Tanque.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../Host/controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
@@ -112,7 +113,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
-			<Item Name="Tanque.ctl" Type="VI" URL="../../../Identificacao_da_Planta/identifica-o-da-planta/Tanques quádruplos - Identificação/Tanque.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
