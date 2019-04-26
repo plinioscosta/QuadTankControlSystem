@@ -68,6 +68,9 @@
 				<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../Host/support/Error Handler - Message Handling Loop.vi"/>
 			</Item>
 		</Item>
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="Cast Data to UI.vi" Type="VI" URL="../Host/SubVIs/Cast Data to UI.vi"/>
+		</Item>
 		<Item Name="Host main.vi" Type="VI" URL="../Host/Host main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -904,7 +907,6 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="SIM MIMO State Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Shared/_Datatypes/SIM MIMO State Space.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
