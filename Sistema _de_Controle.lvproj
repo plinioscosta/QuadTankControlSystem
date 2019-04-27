@@ -64,6 +64,7 @@
 					<Item Name="User Event - Stop.lvlib" Type="Library" URL="../Host/support/User Event - Stop/User Event - Stop.lvlib"/>
 				</Item>
 				<Item Name="Check Loop Error.vi" Type="VI" URL="../Host/support/Check Loop Error.vi"/>
+				<Item Name="Error Handler - Communication Loop.vi" Type="VI" URL="../Host/support/Error Handler - Communication Loop.vi"/>
 				<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../Host/support/Error Handler - Event Handling Loop.vi"/>
 				<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../Host/support/Error Handler - Message Handling Loop.vi"/>
 			</Item>
