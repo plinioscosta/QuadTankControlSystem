@@ -117,6 +117,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
+			<Item Name="Controller Data.ctl" Type="VI" URL="../Real-Time/controls/Controller Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -201,8 +202,11 @@ AddOutputFilter chunkFilter
 		<Item Name="Control Algorithm" Type="Folder">
 			<Item Name="Controller.vi" Type="VI" URL="../Real-Time/RT-FPGA Interface API/Controller.vi"/>
 		</Item>
+		<Item Name="controls" Type="Folder">
+			<Item Name="Controller Data.ctl" Type="VI" URL="../Real-Time/controls/Controller Data.ctl"/>
+		</Item>
 		<Item Name="subVIs" Type="Folder">
-			<Item Name="CalibracaoDosSensores.vi" Type="VI" URL="../Real-Time/subVIs/CalibracaoDosSensores.vi"/>
+			<Item Name="Level Sensors Calibrator.vi" Type="VI" URL="../Real-Time/subVIs/Level Sensors Calibrator.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -936,9 +940,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="SIM MIMO State Space.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Shared/_Datatypes/SIM MIMO State Space.ctl"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
