@@ -117,6 +117,8 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
+			<Item Name="Control Algorithm Data.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Data.ctl"/>
+			<Item Name="Control Algorithm Selection.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Selection.ctl"/>
 			<Item Name="Controller Data.ctl" Type="VI" URL="../Real-Time/controls/Controller Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -200,7 +202,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Control Algorithm" Type="Folder">
-			<Item Name="Controller.vi" Type="VI" URL="../Real-Time/RT-FPGA Interface API/Controller.vi"/>
+			<Item Name="Control Algorithm Data.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Data.ctl"/>
+			<Item Name="Control Algorithm Selection.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Selection.ctl"/>
+			<Item Name="Controller.vi" Type="VI" URL="../Real-Time/Control Algorithm/Controller.vi"/>
 		</Item>
 		<Item Name="controls" Type="Folder">
 			<Item Name="Controller Data.ctl" Type="VI" URL="../Real-Time/controls/Controller Data.ctl"/>
@@ -941,6 +945,7 @@ AddOutputFilter chunkFilter
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
