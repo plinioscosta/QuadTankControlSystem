@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
+			<Item Name="Controller.ctl" Type="VI" URL="../Host/controls/Controller.ctl"/>
 			<Item Name="Tanque.ctl" Type="VI" URL="../Host/controls/Tanque.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../Host/controls/UI Data.ctl"/>
 		</Item>
@@ -70,12 +71,12 @@
 			</Item>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="Calculate Singular Values.vi" Type="VI" URL="../Host/SubVIs/Calculate Singular Values.vi"/>
 			<Item Name="Cast Data to UI.vi" Type="VI" URL="../Host/SubVIs/Cast Data to UI.vi"/>
 			<Item Name="ControlMatrixDialog.vi" Type="VI" URL="../Host/SubVIs/ControlMatrixDialog.vi"/>
+			<Item Name="Open Controller matrix.vi" Type="VI" URL="../Host/SubVIs/Open Controller matrix.vi"/>
 		</Item>
-		<Item Name="Calculate Singular Values.vi" Type="VI" URL="../Host/SubVIs/Calculate Singular Values.vi"/>
 		<Item Name="Host main.vi" Type="VI" URL="../Host/Host main.vi"/>
-		<Item Name="Open Controller matrix.vi" Type="VI" URL="../Host/SubVIs/Open Controller matrix.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -241,11 +242,11 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Control Algorithm" Type="Folder">
-			<Item Name="Control Algorithm Data.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Data.ctl"/>
-			<Item Name="Control Algorithm Selection.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Selection.ctl"/>
 			<Item Name="Controller.vi" Type="VI" URL="../Real-Time/Control Algorithm/Controller.vi"/>
 		</Item>
 		<Item Name="controls" Type="Folder">
+			<Item Name="Control Algorithm Data.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Data.ctl"/>
+			<Item Name="Control Algorithm Selection.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Selection.ctl"/>
 			<Item Name="Controller Data.ctl" Type="VI" URL="../Real-Time/controls/Controller Data.ctl"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
@@ -986,7 +987,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
