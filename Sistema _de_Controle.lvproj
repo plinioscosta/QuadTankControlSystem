@@ -72,8 +72,10 @@
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Calculate Singular Values.vi" Type="VI" URL="../Host/SubVIs/Calculate Singular Values.vi"/>
+			<Item Name="Cast Data to Log.vi" Type="VI" URL="../Host/SubVIs/Cast Data to Log.vi"/>
 			<Item Name="Cast Data to UI.vi" Type="VI" URL="../Host/SubVIs/Cast Data to UI.vi"/>
 			<Item Name="ControlMatrixDialog.vi" Type="VI" URL="../Host/SubVIs/ControlMatrixDialog.vi"/>
+			<Item Name="Formatacao de Waveform.vi" Type="VI" URL="../Host/Log/Formatacao de Waveform.vi"/>
 			<Item Name="Open Controller matrix.vi" Type="VI" URL="../Host/SubVIs/Open Controller matrix.vi"/>
 		</Item>
 		<Item Name="Host main.vi" Type="VI" URL="../Host/Host main.vi"/>
@@ -86,6 +88,7 @@
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -136,6 +139,7 @@
 				<Item Name="NI_LinSys_Polynomial Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/NI_LinSys_Polynomial Math.lvlib"/>
 				<Item Name="NI_LinSys_String Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/NI_LinSys_String Utilities.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
@@ -987,6 +991,7 @@ AddOutputFilter chunkFilter
 		<Item Name="QuickTester.vi" Type="VI" URL="../QuickTester.vi"/>
 		<Item Name="RT main.vi" Type="VI" URL="../Real-Time/RT main.vi"/>
 		<Item Name="RT-FPGA Interface API.lvlib" Type="Library" URL="../Real-Time/RT-FPGA Interface API/RT-FPGA Interface API.lvlib"/>
+		<Item Name="Untitled 13.vi" Type="VI" URL="../../../Users/lca/Desktop/Untitled 13.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
