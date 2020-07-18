@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
 			<Item Name="Controller.ctl" Type="VI" URL="../Host/controls/Controller.ctl"/>
+			<Item Name="Setpoints.ctl" Type="VI" URL="../Host/controls/Setpoints.ctl"/>
 			<Item Name="Tanque.ctl" Type="VI" URL="../Host/controls/Tanque.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../Host/controls/UI Data.ctl"/>
 		</Item>
@@ -74,9 +75,13 @@
 			<Item Name="Calculate Singular Values.vi" Type="VI" URL="../Host/SubVIs/Calculate Singular Values.vi"/>
 			<Item Name="Cast Data to Log.vi" Type="VI" URL="../Host/SubVIs/Cast Data to Log.vi"/>
 			<Item Name="Cast Data to UI.vi" Type="VI" URL="../Host/SubVIs/Cast Data to UI.vi"/>
+			<Item Name="Config Setpoints.vi" Type="VI" URL="../Host/SubVIs/Config Setpoints.vi"/>
 			<Item Name="ControlMatrixDialog.vi" Type="VI" URL="../Host/SubVIs/ControlMatrixDialog.vi"/>
 			<Item Name="Formatacao de Waveform.vi" Type="VI" URL="../Host/Log/Formatacao de Waveform.vi"/>
 			<Item Name="Open Controller matrix.vi" Type="VI" URL="../Host/SubVIs/Open Controller matrix.vi"/>
+		</Item>
+		<Item Name="Utility" Type="Folder">
+			<Item Name="Control Data Viewer.vi" Type="VI" URL="../Host/Utility/Control Data Viewer.vi"/>
 		</Item>
 		<Item Name="Host main.vi" Type="VI" URL="../Host/Host main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -164,6 +169,9 @@
 			<Item Name="Control Algorithm Selection.ctl" Type="VI" URL="../Real-Time/Control Algorithm/Control Algorithm Selection.ctl"/>
 			<Item Name="Controller Data.ctl" Type="VI" URL="../Real-Time/controls/Controller Data.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -255,6 +263,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="Level Sensors Calibrator.vi" Type="VI" URL="../Real-Time/subVIs/Level Sensors Calibrator.vi"/>
+			<Item Name="Setpoint Generation.vi" Type="VI" URL="../Real-Time/subVIs/Setpoint Generation.vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
@@ -991,7 +1000,6 @@ AddOutputFilter chunkFilter
 		<Item Name="QuickTester.vi" Type="VI" URL="../QuickTester.vi"/>
 		<Item Name="RT main.vi" Type="VI" URL="../Real-Time/RT main.vi"/>
 		<Item Name="RT-FPGA Interface API.lvlib" Type="Library" URL="../Real-Time/RT-FPGA Interface API/RT-FPGA Interface API.lvlib"/>
-		<Item Name="Untitled 13.vi" Type="VI" URL="../../../Users/lca/Desktop/Untitled 13.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -1000,10 +1008,10 @@ AddOutputFilter chunkFilter
 				<Item Name="NILVSim.dll" Type="Document" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim.dll"/>
 			</Item>
 			<Item Name="Controller.ctl" Type="VI" URL="../Host/controls/Controller.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Setpoints.ctl" Type="VI" URL="../Host/controls/Setpoints.ctl"/>
 			<Item Name="SistemadeControl_FPGATarget_FPGAmain_BFayZ0A1nnk.lvbitx" Type="Document" URL="../FPGA Bitfiles/SistemadeControl_FPGATarget_FPGAmain_BFayZ0A1nnk.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
