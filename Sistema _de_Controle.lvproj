@@ -77,8 +77,8 @@
 			<Item Name="Cast Data to UI.vi" Type="VI" URL="../Host/SubVIs/Cast Data to UI.vi"/>
 			<Item Name="Config Setpoints.vi" Type="VI" URL="../Host/SubVIs/Config Setpoints.vi"/>
 			<Item Name="ControlMatrixDialog.vi" Type="VI" URL="../Host/SubVIs/ControlMatrixDialog.vi"/>
-			<Item Name="Formatacao de Waveform.vi" Type="VI" URL="../Host/Log/Formatacao de Waveform.vi"/>
 			<Item Name="Open Controller matrix.vi" Type="VI" URL="../Host/SubVIs/Open Controller matrix.vi"/>
+			<Item Name="Waveform formatting.vi" Type="VI" URL="../Host/Log/Waveform formatting.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Control Data Viewer.vi" Type="VI" URL="../Host/Utility/Control Data Viewer.vi"/>
@@ -1000,12 +1000,12 @@ AddOutputFilter chunkFilter
 		<Item Name="QuickTester.vi" Type="VI" URL="../QuickTester.vi"/>
 		<Item Name="RT main.vi" Type="VI" URL="../Real-Time/RT main.vi"/>
 		<Item Name="RT-FPGA Interface API.lvlib" Type="Library" URL="../Real-Time/RT-FPGA Interface API/RT-FPGA Interface API.lvlib"/>
+		<Item Name="SamplingPeriod.vi" Type="VI" URL="../Host/Global Variable/SamplingPeriod.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
-				<Item Name="niLvFpga_Open_cRIO-9118.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/cRIO-9118/niLvFpga_Open_cRIO-9118.vi"/>
 				<Item Name="NILVSim.dll" Type="Document" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/NILVSim.dll"/>
 			</Item>
 			<Item Name="Controller.ctl" Type="VI" URL="../Host/controls/Controller.ctl"/>
